@@ -245,6 +245,6 @@ check_user_query = "SELECT * FROM users WHERE phone_number = ? AND password = ?"
 cursor.execute(check_user_query, (phone_number, password))
 existing_user = cursor.fetchone()
 if existing_user[2]==password:
-    print("hdfkjhskf")
+    print("")
 print(existing_user)
     
