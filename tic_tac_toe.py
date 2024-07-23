@@ -51,8 +51,6 @@ if __name__ == "__main__":
             print("PLAYER 1 WON THE GAME! BETTER LUCK NEXT TIME PLAYER 2")
             break
 
-
-
         game_on("O")
         game_board()
         if winning() == 2:
